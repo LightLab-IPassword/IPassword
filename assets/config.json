@@ -1,0 +1,8 @@
+{
+  "capture_hotkey": "Alt+C",
+  "paste_hotkey": "Alt+V",
+  "paste_idle_seconds": 45,
+  "idle_seconds": 120,
+  "core_dll_sha256": null,
+  "data_dir": null
+}

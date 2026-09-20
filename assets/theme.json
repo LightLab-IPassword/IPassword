@@ -1,0 +1,16 @@
+{
+  "background": "#0F172A",
+  "panel": "#1E293B",
+  "input": "#0B1220",
+  "text": "#E5E7EB",
+  "muted": "#94A3B8",
+  "accent": "#F5A524",
+  "accent_text": "#1E293B",
+  "button": "#334155",
+  "button_hover": "#475569",
+  "danger": "#F87171",
+  "ok": "#4ADE80",
+  "rounding": 8.0,
+  "font_size": 15.0,
+  "spacing": 8.0
+}
