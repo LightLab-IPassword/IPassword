@@ -1,6 +1,12 @@
 [workspace]
 resolver = "2"
-members = ["crates/ipassword-core", "crates/ipassword-ffi", "crates/ipassword-app"]
+members = [
+  "core/ipassword-core",
+  "core/ipassword-ffi",
+  "shared",
+  "windows",
+  "linux",
+]
 
 [profile.release]
 opt-level = 3

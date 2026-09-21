@@ -1,0 +1,17 @@
+[package]
+name = "ipassword-windows"
+version = "0.1.0"
+edition = "2021"
+description = "IPassword for Windows: background hotkeys, tray icon and Win32 integration"
+build = "build.rs"
+
+[[bin]]
+name = "IPassword"
+path = "src/main.rs"
+
+[dependencies]
+ipassword-shared = { path = "../shared" }
+zeroize = "1"
+
+[target.'cfg(windows)'.dependencies]
+winapi = { version = "0.3.9", features = ["winuser", "winbase", "winnt", "winreg", "minwindef", "windef", "winerror", "libloaderapi", "errhandlingapi", "synchapi", "shellapi", "wingdi", "handleapi"] }

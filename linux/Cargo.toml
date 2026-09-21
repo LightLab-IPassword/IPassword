@@ -1,0 +1,16 @@
+[package]
+name = "ipassword-linux"
+version = "0.1.0"
+edition = "2021"
+description = "IPassword for Linux (X11): background hotkeys and desktop integration"
+
+[[bin]]
+name = "ipassword"
+path = "src/main.rs"
+
+[dependencies]
+ipassword-shared = { path = "../shared" }
+zeroize = "1"
+
+[target.'cfg(unix)'.dependencies]
+x11rb = "0.13"
